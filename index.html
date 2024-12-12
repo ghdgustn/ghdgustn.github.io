@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('sb_main.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            background-color: #FFFAE3;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #393939;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00704A;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 50px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #00794a;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+        @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index3.html"><img src="starbuckslogo.png" alt="스타벅스 로고"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="history.html">HISTORY</a></li>
+                <li><a href="menu.html">POPULAR MENU</a></li>
+                <li><a href="special.html">GLOBAL SPECIALS</a></li>
+                <li><a href="frequency.html">2024 FREQUENCY</a></li>
+                <li><a href="customize.html">PERSONALIZED DRINKS!</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
